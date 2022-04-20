@@ -1,6 +1,6 @@
 # Scribble Exercise Uniswap
 
-This exercise will explore Uniswaps V2 implementation of the constant product AMM. We'll look at several aspects and how we can formalise specifications of the uniswap contracts as annotations.
+The constant product AMM is a simple, yet very common and well known pattern in DeFi. This exercise will explore Uniswaps V2 implementation of a constant product AMM. We'll look at several aspects and how we can formalise specifications of the uniswap contracts as annotations. 
 
 ### Handy Links
 Scribble Repository -> https://github.com/ConsenSys/Scribble
@@ -14,12 +14,12 @@ npm install eth-scribble --global
 ### Setting up the target
 
 ```
-git clone <placeholder>
+git clone https://github.com/ConsenSys/scribble-exercise-uniswap.git
 ```
 
 
 ### Approach
-We should review a general strategy before diving in head-first trying to write properties. The following steps are three that we commonly use ourselves when approaching a new system that has to be annotated.
+We should review a general strategy before diving in head-first trying to write properties. The following steps are three that we commonly use when approaching a new system that has to be annotated.
 
 1. What is the central functionality of the system? 
 2. What are the core assumptions that other people will have when integrating with your code?
